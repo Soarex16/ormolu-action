@@ -1,5 +1,5 @@
-name: 'ormolu-action'
-description: 'Check formatting of Haskell code with Ormolu'
+name: 'ormolu-format'
+description: 'Reformat Haskell code with Ormolu'
 inputs:
   pattern:
     required: false

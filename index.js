@@ -85,7 +85,7 @@ async function run() {
     if (files.length > 0) {
         await exec.exec(
             ormolu_cached_path,
-            ['--color', 'always', '--check-idempotence', '--mode', 'check']
+            ['--color', 'always', '--check-idempotence', '--mode', 'inplace']
                 .concat(respect_cabal_files)
                 .concat(extra_args)
                 .concat(files)

@@ -1,5 +1,6 @@
 name: 'ormolu-format'
 description: 'Reformat Haskell code with Ormolu'
+icon: 'align-left'
 inputs:
   pattern:
     required: false
